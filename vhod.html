@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Enter</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="style-reg.css">
+</head>
+
+<body>
+  
+  <div id="main">
+    <div class="header">
+      <div class="header-content">
+        <div class="button reg">
+          <a href="registr.html">Регистрация</a>
+        </div>
+        <div class=" button vhod">
+          <a href="vhod.html">Вход</a>
+        </div>
+        <div id="title">
+      	   <h1>Николаев</h1>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="sidebar">
+        <nav>
+    	    <ul>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="history.html">История</a></li>
+            <li><a href="museums.html">Музеи</a></li>
+            <li><a href="interesting-places.html">Интересные места</a></li>
+            <li><a href="entertain.html">Развлечения</a></li>
+            <li><a href="about.html">Об авторе</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <div class="content-1">
+          <h1>Вход</h1>
+          <form name="vhod" action="script_php_vhod.php" method="POST">
+          <table id="reg-enter">
+            <tr>
+              <td>Электронная почта</td>
+              <td><input type="text"  name="email"></td>
+            </tr>
+            <tr>
+              <td>Пароль</td>
+              <td><input type="password"  name="passw1"></td>
+            </tr>
+          </table>
+          <br>
+          <input class="button opt" type="submit"   name="submit" value="Войти" onclick="">
+          <input class="button opt" type="button"   name="reset" value="Зарегестрироваться" onclick="location.href='registr.html'">
+        </form>
+        </div>
+      </div>
+    </div>
+      <div class="footer">
+    	 <p>Лысенко Диана Сергеевна 2 курс 2 группа ФСИТиС 2017 год</p>
+      </div>   
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+l * {
+	box-sizing: border-box; 
+}
+
+body {
+	margin: 0;
+	text-align: center;
+}
+
+#main {
+	background-color:#dddddd;
+}
+
+.header {
+	height: 150px;
+	background-image: url(tittle2.png);
+	background-repeat: repeat;
+	min-width: 900px; 
+}
+
+
+#title {
+	float: right;
+}
+
+#title h1 {
+	margin: 10px 40px;
+    color: white;
+	font-family: Century Gothic, sans-serif;
+	font-weight: 100;
+	font-size: 95px;
+}
+
+.button {
+	float: left;
+	margin-top: 40px;
+}
+
+.button a {
+	font-family: Century Gothic, sans-serif;
+	font-size: 20px;
+    color: white;
+    text-decoration: none;
+	background-color: #141414;
+	padding: 10 25px;	
+	
+}
+
+.button a:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.wrapper {
+	display: flex; 
+    flex-wrap: nowrap; 
+    background-image: url(back1.jpg);
+    background-repeat: repeat;
+
+}
+
+.sidebar {        
+	min-width: 200px; 
+	height: 100%; 
+}
+
+nav {
+	margin: 5px;      
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	background-color: #141414;
+	font-family: Century Gothic, sans-serif;
+	font-size: 20px;
+	padding: 15 10 15 10;	     
+}
+
+nav a:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.content {
+    margin: 15px 25px;
+}
+
+.content-1 {	        
+	min-width: 800px;    
+}
+
+.adds {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content-1 img {
+	height: 250px;
+	margin-left: 10px;
+	
+}
+
+.info-table {
+	border-collapse: collapse;
+	margin:10px;
+}
+
+.info-table td {
+	border: 2px solid #141414;
+	padding: 5px;
+	font-size: 18px;
+	font-family: Candara, sans-serif;
+}
+
+.content-1 p {
+    text-align: left;
+    font-size: 20px;
+    font-family: Candara, sans-serif;
+}
+
+.footer {
+	height: 70px; 
+	background-color: black; 
+}
+
+.footer p {
+    color: white;
+	text-align:left;
+	margin: 0;
+	padding: 20px;
+	font-size: 18px;
+    font-family: Century Gothic, sans-serif;
+}
